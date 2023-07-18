@@ -17,6 +17,7 @@ void combination(int arr[], int arr1[], int size, int target, int sum)
 
 int main()
 {
+    // changes in combinatioonSum
     int size, target;
     cout<<"Enter the size of the Array : ";
     cin>>size;
