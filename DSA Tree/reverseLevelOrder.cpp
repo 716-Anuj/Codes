@@ -17,6 +17,9 @@ class Node{
 };
 
 void reverseLevelOrder(Node* root){
+    if(!root){
+        return;
+    }
     stack<Node*>st;
     queue<Node*>q;
 
