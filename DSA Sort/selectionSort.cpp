@@ -10,7 +10,7 @@ void swap(int *a, int *b){
 void selectionSort(int arr[], int size){
     int min_id;
 
-    for(int i = 0; i < size; i++){
+    for(int i = 0; i < size-1; i++){
         min_id= i;
         for(int j = i+1; j < size; j++){
             if(arr[min_id] > arr[j]){
