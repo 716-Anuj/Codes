@@ -34,9 +34,12 @@ int main(){
 
     // Dynamic allocation
     Hero *h2 = new Hero;
+
+    // Use of getter
     cout<<"Anuj health "<<(*h2).getHealth()<<endl;
     cout<<"Anuj level "<<h2->getLevel()<<endl;
 
+    // Use of Setter
     h2->setLevel('A');
     h2->setHealth(30);
 
